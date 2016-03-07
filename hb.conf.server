@@ -1,0 +1,7 @@
+; journeys processing for creating arrivals files
+; empty date_files means processing the data from the previous day
+hbase_table = Busdata
+hdfs_output_dir = /user/maintainer/mroutput
+local_arrivals_dir = /home/maintainer/bus_arrivals
+hdfs_arrivals_dir = /user/maintainer/bus_arrivals
+date_files = 
